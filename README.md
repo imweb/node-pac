@@ -5,7 +5,7 @@
 [![David deps](https://img.shields.io/david/imweb/node-pac.svg?style=flat-square)](https://david-dm.org/imweb/node-pac)
 [![License](https://img.shields.io/npm/l/node-pac.svg?style=flat-square)](https://www.npmjs.com/package/node-pac)
 
-可自动更新pac文件的Node版pac脚本解析器。
+Node版pac脚本解析器。
 
 # 安装
 
