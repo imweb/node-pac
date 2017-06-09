@@ -1,6 +1,6 @@
 {
   "name": "node-pac",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Node版pac脚本解析器",
   "scripts": {
     "test": "mocha test/index.test.js test/units -R spec -t 5000",
