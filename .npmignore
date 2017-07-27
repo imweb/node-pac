@@ -39,3 +39,5 @@ jspm_packages
 # test
 test
 src
+# hidden file
+/.*
