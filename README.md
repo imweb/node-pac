@@ -25,7 +25,7 @@ Node版pac脚本解析器。
 
 		｛
 			url: 'pac文件内容、本地的pac文件路径、或者http[s]链接',
-			timeout: 'url为http[s]链接时才生效，设置请求的超时时间，默认3000ms',
+			timeout: 'url为http[s]链接时才生效，设置请求的超时时间，默认5000ms',
 			cacheTime: '缓存pac脚本的时间，在缓存时间内，node-pac不会重新拉起pac脚本'
 			//默认为30s，超过这个时间用户再请求时会重新拉取脚本
 			//也可以通过下面的pac.forceUpdate()强制刷新

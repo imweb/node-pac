@@ -1,9 +1,11 @@
 {
   "name": "node-pac",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Node版pac脚本解析器",
   "scripts": {
     "test": "mocha test/index.test.js test/units -R spec -t 5000",
+    "lint": "eslint ./lib *.js",
+    "lintfix": "eslint --fix ./lib *.js",
     "cov": "istanbul cover _mocha -- test/index.test.js test/units -R spec -t 5000"
   },
   "repository": {
@@ -21,14 +23,14 @@
   },
   "homepage": "https://github.com/imweb/node-pac#node-pac",
   "dependencies": {
-    "netmask": "^1.0.6",
-    "request": "^2.75.0"
+    "netmask": "^1.0.6"
   },
   "engines": {
     "node": ">= 0.10.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "eslint": "^2.8.0",
     "istanbul": "^0.4.5",
     "mocha": "^3.0.2"
   }
